@@ -1,0 +1,57 @@
+/* for URLs starting with: https://docs.python.org/3 */
+
+/* python docs are so yuck, just a couple of tweaks that make it nice on my mac */
+
+body {
+    font-family: "HelveticaNeue-Light", 'Helvetica', sans-serif;
+    margin-left: 0; 
+}
+
+div.sphinxsidebar {
+    background-color: #e5e8e6;
+    border-top-left-radius: 0;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 0;
+    line-height: 130%;
+    font-size: smaller;
+}
+
+div.body h1, div.body h2, div.body h3, div.body h4, div.body h5, div.body h6, div.body h7 {
+    font-family: "HelveticaNeue-CondensedBold";
+}
+
+code {
+    padding: 1px 3px 1px 3px;
+    background-color: #d7e1e8;
+}
+
+
+div.body div.seealso {
+    border: 1px solid #eaeaa4;
+    background-color: #ffffec;
+}
+
+div.body tt, div.body code {
+    border-radius: 4px;
+}
+
+div.body {
+    padding-left: 2.5em;
+    padding-right: 2.5em;
+}
+
+tt, code, pre {
+    font-family: Hack, monospace, sans-serif;
+}
+
+pre {
+    background-color: #f5f9ee;
+    padding: 1em 0.8em;
+}
+
+div.sidebar {
+    background-color: #fbfbf5;
+    padding: 1em;
+    width: 35%;
+}
