@@ -1,0 +1,8 @@
+/* for URLs starting with https://docs.python.org/2 */
+
+/* background stripes for version 2 python site, to warn me I am in retroland. */
+
+div.body {
+    /* thanks to https://css-tricks.com/stripes-css/ */
+    background: repeating-linear-gradient( -55deg, #e8eee0, #e8eee0 10px, #eee 10px, #eee 20px);
+}
